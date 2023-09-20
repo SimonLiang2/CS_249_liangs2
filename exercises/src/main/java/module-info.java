@@ -1,3 +1,5 @@
 module exercisesmod {
     exports edu.liangs2.exercises02;
+    exports edu.liangs2.exercises03;
+    exports edu.liangs2.exercises06;
 }
