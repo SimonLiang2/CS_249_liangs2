@@ -19,7 +19,7 @@ test {
 }
 
 application {
-    mainClass = "edu.liangs2.exercises02.Wasteland"
+    mainClass = "edu.liangs2.exercises03.FoodRationer"
     mainModule = "exercisesmod"
 }
 
