@@ -4,6 +4,7 @@ import edu.liangs2.assign02.Superhero;
 
 public class League {
 
+    //main function
     public static void main(String [] args) {
         Scanner input = new Scanner(System.in);
         Superhero p = new Superhero();
