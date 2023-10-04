@@ -4,4 +4,5 @@ module exercisesmod {
     exports edu.liangs2.exercises06;
     exports edu.liangs2.exercises07;
     exports edu.liangs2.exercises09;
+    exports edu.liangs2.exercises10;
 }
