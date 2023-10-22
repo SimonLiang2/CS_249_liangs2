@@ -14,9 +14,9 @@ public class SilentFilm {
         System.out.println("Enter number of lines:");
         line = input.nextLine();
         numLines = Integer.parseInt(line);
-
-
         System.out.println("Enter lines:");
+
+        //Checks if numLines is greater than 0, otherwise error can occur
         if (numLines > 0) {
             allLines = new String[numLines];
             for (int i = 0; i < numLines; i++) {
@@ -27,8 +27,6 @@ public class SilentFilm {
         else{
             allLines = new String[0];
         }
-
-
         Narrator n = new Narrator(allLines, boundaryChar);
         return n;
     }
