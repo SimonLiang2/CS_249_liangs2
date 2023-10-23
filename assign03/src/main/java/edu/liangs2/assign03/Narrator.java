@@ -1,13 +1,13 @@
 package edu.liangs2.assign03;
 
 public class Narrator {
-    char boundaryChar;
-    int numLines;
+    private char boundaryChar;
+    private int numLines;
 
-    final int MAXLINES=4;
+    private final int MAXLINES=4;
 
 
-    String [] lines;
+    private String [] lines;
 
 
 
