@@ -1,6 +1,8 @@
 package edu.liangs2.exercises02;
 
 public class NPC {
+
+    final String DESTINATION = "Log Truck";
     private int health = 100;
     private char relationship;
 

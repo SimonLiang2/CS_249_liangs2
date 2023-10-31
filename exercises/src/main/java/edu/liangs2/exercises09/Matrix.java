@@ -51,6 +51,20 @@ public class Matrix {
         return sb.toString();
     }
 
+    public String toPoint3DString() {
+        if(isPoint3D()) {
+            return "(" + m[0][0] + "," + m[1][0] + "," + m[2][0] + ")";
+        }
+        else {
+            return "()";
+        }
+    }
+
+    public boolean isPoint3D() {
+        return (getcol() == 1 &&
+                (getrow() == 3 || getrow() == 4));
+    }
+
     public static Matrix mainPointID(double x, double y, double z){
         Matrix p = new Matrix(4,1);
         p.set(0,0,x);
