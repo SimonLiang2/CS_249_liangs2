@@ -1,5 +1,5 @@
 package edu.liangs2.assign06;
-import edu.realemj.assign04.ScreenBuffer;
+import edu.liangs2.assign04.ScreenBuffer;
 //NOTE: CHANGE realemj to YOUR SITNETID!!!
 import org.testng.annotations.Test;
 
