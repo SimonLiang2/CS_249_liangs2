@@ -3,8 +3,8 @@ import java.util.*;
 
 public class Item implements Loadable{
 
-    String id = "";
-    int value = 0;
+    protected String id = "";
+    protected int value = 0;
     public Item(){
         id = "";
         value =0;
@@ -36,11 +36,6 @@ public class Item implements Loadable{
     }
 
 
-
-
-
-
-
     public void load(Scanner input) throws GameFileException{
         id = "";
         value = 0;
@@ -52,7 +47,7 @@ public class Item implements Loadable{
         catch (Exception e){
             id = "";
             value = 0;
-            throw new GameFileException("Error loading item", e);
+            throw new GameFileException("Error loading Item", e);
 
 
         }
