@@ -3,9 +3,7 @@ import edu.liangs2.assign04.ScreenBuffer;
 
 public class Rat extends Creature{
 
-
     public Rat(){
-
 
     }
 
